@@ -1,0 +1,124 @@
+#body_content{
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(141, 141, 141);
+
+}
+
+
+header{
+    text-align: center;
+    background-color: rgb(248, 206, 16);
+    border: 1px solid rgb(141, 141, 141);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fotoCV{
+
+    border-radius: 50%;
+}
+
+/*CSS barra de navegación*/
+#nav_bar{
+    margin: 10px auto;
+    border: 1px solid gray;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+}
+
+#nav_bar ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+#nav_bar a{
+    text-decoration: none;
+    color: black;
+    /*border: 1px solid gray;*/
+}
+
+
+section{
+    margin: 50px;
+}
+
+#datos hr{
+    height: 1px;
+    background-color: rgb(141, 141, 141);
+}
+
+
+/*CSS para barras de habilidades*/
+
+.skill_bar,
+.skill_bar::after{
+    position: relative;
+    width: 175px;
+    height: 8px;
+    background-color: #888;
+    border-radius: 0.4em;
+    overflow: hidden;
+}
+
+.skill_bar::after{
+    content: "";
+    position: absolute;
+    left: -175;
+    background-color: hsl(214, 84%, 56%);
+    transition: color 0.1s, background-color 0.2s ease-in-out;
+}
+
+
+.skill_20::after{
+    transform: translateX(-80%);
+}
+
+.skill_40::after{
+    transform: translateX(-60%);
+}
+
+.skill_60::after{
+    transform: translateX(-40%);
+}
+.skill_80::after{
+    transform: translateX(-20%);
+}
+.skill_100::after{
+    transform: translateX(0%);
+}
+
+
+.idioma::after{
+    background-color: hsla(115, 59%, 46%, 0.788);
+}
+
+#skills_list li{
+    list-style: none;
+}
+
+
+
+/*CSS para botones del footer*/
+footer{
+    text-align: center;
+    background-color: rgb(248, 206, 16);
+    padding: 20px;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+#botones{
+    margin: 10px;
+}
+
+.boton_datos{
+    margin: auto 20px;
+}
+
+.boton_datos img{
+    width: 30px;
+}

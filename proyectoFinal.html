@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="icon" href="cvIcon.png">
+    <link rel="stylesheet" href="pF.css">
+</head>
+<body>
+    <div id="body_content">
+        <header>
+            <h1><u>CURRÍCULUM VITAE</u></h1>
+            <img id="fotoCV" src="fotoCV.jpg" alt="Foto de Perfil">
+            <h2><u>Jesse Ferguson</u></h2>
+            <p>Ingeniero en Software</p>
+        </header>
+        <nav id="nav_bar">
+            <p><u><strong>Índice</strong></u></p>
+            <ul>
+                <hr>
+                <li><a href="#inf_personal">Información personal</a></li>
+                <hr>
+                <li><a href="#formacion">Formación</a></li>
+                <hr>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <hr>
+                <li><a href="#descripcion">Descripción</a></li>
+                <hr>
+                <li><a href="#skills">Habilidades</a></li>
+                <hr>
+                <li><a href="#lenguaje">Lenguajes</a></li>
+                <hr>
+                <li><a href="#footer">Contactos</a></li>
+            </ul>
+        </nav>
+        <div id="datos">
+            <hr>
+            <section id="inf_personal">
+                <h2><u>Información Personal</u></h2>
+                <ul>
+                    <li>Nacimiento: 06 - 05 - 1997.</li>
+                    <li>Nacionalidad: Argentina.</li>
+                    <li>Localidad: Ciudad de Córdoba.</li>
+                    <li>Dirección: 7899 Rolling Green Rd</li>
+                </ul>
+            </section>
+            <hr>
+            <section id="formacion">
+                <h2><u>Formación</u></h2>
+                <h3>Universidad Siglo 21</h3>
+                <h3>Ingeniería en Software</h3>
+                <p>Como egresado de Ingeniería en Software estoy capacitado para:
+                    <ul>
+                        <li>Comprender y usar nuevas tecnologías informáticas.</li>
+                        <li>Integrar grupos de trabajo en desarrollo de software.</li>
+                        <li>Elaborar, planificar y administrar proyectos de desarrollo de ingeniería y software.</li>
+                        <li>Especificar, desarrollar y verificar Sistemas de Software.</li>
+                        <li>Producir software a gran escala.</li>
+                        <li>Abordar proyectos de investigación y desarrollo integrando o liderando equipos interdisciplinarios de trabajo.</li>
+                    </ul>
+                </p>
+            </section>
+            <hr>
+            <section id="experiencia">
+                <h2><u>Experiencia</u></h2>
+                <p>Sin experiencia laboral.</p>
+            </section>
+            <hr>
+            <section id="descripcion">
+                <h2><u>Sobre Jesse</u></h2>
+                <p>Soy un egresado en Ingeniería en Software muy entuciasta, siempre realizando cursos para continuar aprendiendo y mantenerme informado sobre el mundo informático. 
+                    Busco un empleo donde poner en práctica mis estudios y estoy muy emocionado por obtenerlo. Siempre estoy dispuesto a 
+                    trabajar en equipo y adaptarme a cualquier situación que surja.
+                </p>
+            </section>
+            <hr>
+            <section id="skills">
+                <h2><u>Habilidades</u></h2>
+                <ul id="skills_list">
+                    <li>
+                        <p class="skills_ing">Trabajo en equipo</p>
+                        <div class="skill_bar skill_80"></div>
+                    </li>
+                    <li>
+                        <p class="skills_ing">Comunicación</p>
+                        <div class="skill_bar skill_60"></div>
+                    </li>
+                    <li>
+                        <p class="skills_ing">Solución de problemas</p>
+                        <div class="skill_bar skill_100"></div>
+                    </li>
+                    <li>
+                        <p class="skills_ing">Organización</p>
+                        <div class="skill_bar skill_60"></div>
+                    </li>
+                    <li>
+                        <p class="skills_ing">Liderazgo</p>
+                        <div class="skill_bar skill_40"></div>
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <section id="lenguaje">
+                <h2><u>Lenguajes</u></h2>
+                <ul id="skills_list">
+                    <li>
+                        <p class="skills_len">Español</p>
+                        <div class="skill_bar skill_100 idioma"></div>
+                    </li>
+                    <li>
+                        <p class="skills_len">Inglés</p>
+                        <div class="skill_bar skill_80 idioma"></div>
+                    </li>
+                    <li>
+                        <p class="skills_len">Italiano</p>
+                        <div class="skill_bar skill_40 idioma"></div>
+                    </li>
+                </ul>
+            </section>
+           
+        </div>
+    </div>
+</body>
+<footer id="footer">
+    <p id="texto1">Mi email es</p>
+    <strong><p id="texto2">jesse.ferguson@gmail.com</p></strong>
+    <div id="botones">
+        <button type="button" onclick= 'CambiarDatos("email")' class="boton_datos" id="email">
+            <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Botón email">
+        </button>
+        <button type="button" onclick= 'CambiarDatos("telefono")' class="boton_datos" id="telefono">
+            <img src="https://i.pinimg.com/originals/9e/94/19/9e9419894fd0b03c700c89e8f0cb3d01.png" alt="Botón teléfono">
+        </button>
+        <button type="button" onclick= 'CambiarDatos("direccion")' class="boton_datos" id="direccion">
+            <img src="https://cdn-icons-png.flaticon.com/512/3425/3425073.png" alt="Botón dirección">
+        </button>
+        <button type="button" onclick= 'CambiarDatos("instagram")' class="boton_datos" id="instagram">
+            <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png" alt="Botón instagram">
+        </button>
+    </div>
+    <script src="pF.js"></script>
+</footer>
+</html>
+
+<!--https://www.cvmaker.com.ar/?gclid=CjwKCAiA0cyfBhBREiwAAtStHG0oSCqZ-bFHpFyD-QUp142z1zNDZWjcJjCP1dIeRtXH4bxSjVNS1BoCt6QQAvD_BwE-->
